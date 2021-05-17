@@ -4,7 +4,6 @@ let x = document.getElementById("navigation");
 document.getElementById('menu').addEventListener('click', toogleMenu)
 
 function toogleMenu() {
-
     if (!menuState) {
         openMenu();
     } else {
@@ -17,8 +16,6 @@ window.onresize = function () {
         closeMenu();
     }
 }
-
-closeMenu();
 
 function closeMenu() {
     x.style.left = '-160px';
